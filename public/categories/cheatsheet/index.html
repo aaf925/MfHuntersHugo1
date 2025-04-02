@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Cheatsheet | M***Hunters</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/categories/cheatsheet/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1258633aaad68fa686a2361dac1f985a1c0ff4948ca0f58aab8d26388ea43cb8.css" integrity="sha256-ElhjOqrWj6aGojYdrB&#43;YWhwP9JSMoPWKq40mOI6kPLg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/categories/cheatsheet/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/categories/cheatsheet/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="list" id="top"><header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <a href="/">M***Hunters</a>
+      </div>
+      
+      <nav class="custom-menu">
+    <ul>
+      
+        <li class="">
+          <a href="/" title="">
+            Inicio
+          </a>
+        </li>
+      
+        <li class="">
+          <a href="/integrantes/aaf925/" title="">
+            Alejandro
+          </a>
+        </li>
+      
+        <li class="">
+          <a href="/integrantes/anm020/" title="">
+            Antonio
+          </a>
+        </li>
+      
+        <li class="">
+          <a href="/integrantes/jgm847/" title="">
+            Jorge
+          </a>
+        </li>
+      
+        <li class="menu-item-">
+          <a href="/posts/" title="Nuestro Blog">
+            Blog
+          </a>
+        </li>
+      
+        <li class="">
+          <a href="/contacto/" title="">
+            Contacto
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+  
+  <style>
+  .custom-menu ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .custom-menu a {
+    color: currentColor;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    position: relative;
+  }
+  
+  .custom-menu a:hover {
+    color: var(--primary);
+  }
+  
+  .custom-menu a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary);
+    transition: width 0.3s ease;
+  }
+  
+  .custom-menu a:hover::after {
+    width: 100%;
+  }
+  </style>
+      
+      <div class="theme-toggle">
+        
+      </div>
+    </nav>
+  </header>
+  
+  <style>
+  .header {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .logo a {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  </style><main class="main"> 
+<header class="page-header">
+  <h1>
+    Cheatsheet
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Git Branching Cheatsheet
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>🧪 Git Branching Cheatsheet Una referencia rápida para trabajar con ramas en Git. Ideal para cuando necesitas moverte entre ramas, crear nuevas o fusionarlas rápidamente.
+📋 Crear ramas # Crear una nueva rama (sin cambiar a ella) git branch nombre-de-la-rama # Crear una nueva rama y cambiarse a ella git checkout -b nombre-de-la-rama # Crear una nueva rama a partir de otra existente git checkout -b nueva-rama origen/rama-base 🔄 Cambiar entre ramas # Cambiar de rama git checkout nombre-de-la-rama # Mostrar todas las ramas locales git branch # Mostrar todas las ramas (locales &#43; remotas) git branch -a 🗑️ Borrar ramas # Eliminar una rama local (si ya fue fusionada) git branch -d nombre-de-la-rama # Si ya fue fusionada git branch -D nombre-de-la-rama # Forzar borrado # Eliminar una rama del repositorio remoto git push origin --delete nombre-de-la-rama 🚀 Subir ramas al repositorio remoto # Publicar una nueva rama al repositorio remoto y configurarla para hacer push git push -u origin nombre-de-la-rama 🔁 Fusionar ramas (merge) # Integrar cambios de otra rama en la actual git merge nombre-de-la-rama # Fusionar sin crear un commit automático git merge --no-commit nombre-de-la-rama 🧠 Rebase # Mover commits actuales para que partan desde otra rama (rebase) git rebase nombre-de-la-rama # Interactivo (para reorganizar, editar, etc.) git rebase -i HEAD~3 🧭 Comparar ramas # Mostrar los cambios entre dos ramas git diff rama1..rama2 # Ver los commits en una rama que no están en otra git log rama1..rama2 🧼 Limpieza # Limpiar ramas remotas eliminadas del listado local git remote prune origin 🔍 Tips extra # Cambiar el nombre de una rama local git branch -m nuevo-nombre # Mostrar en qué rama estás actualmente git branch --show-current # Establecer la rama remota por defecto para hacer push git push --set-upstream origin nombre-de-la-rama 🧰 Comandos generales de Git Una recopilación más extensa de comandos útiles en Git, desde lo básico hasta herramientas avanzadas.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-03-21 00:00:00 +0000 UTC'>March 21, 2025</span>&nbsp;·&nbsp;jgm847</footer>
+  <a class="entry-link" aria-label="post link to Git Branching Cheatsheet" href="http://localhost:1313/posts/autor/jgm847/cheatsheet-de-git-branching/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">M***Hunters</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

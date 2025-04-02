@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/404.html">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.6da9a63d25a9608bca2f7f907a030e887a7dd3c3f3918e4cc113129361414bda.css" integrity="sha256-bammPSWpYIvKL3&#43;QegMOiHp908PzkY5MwRMSk2FBS9o=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cb543fbe62073b1a335fc5dfef13e31ae63cf170a1e05168ad738c891d07f567.css" integrity="sha256-y1Q/vmIHOxozX8Xf7xPjGuY88XCh4FForXOMiR0H9Wc=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -30,61 +30,117 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
+<body class="list" id="top"><header class="header">
+  <nav class="nav">
+      <div class="logo">
+          <a href="/">M***Hunters</a>
+      </div>
+      <nav class="menu">
+  <ul>
+    
+      
+        <li><a href="/">Inicio</a></li>
+      
+    
+      
+        <li><a href="/integrantes/aaf925/">Alejandro</a></li>
+      
+    
+      
+        <li><a href="/integrantes/anm020/">Antonio</a></li>
+      
+    
+      
+        <li><a href="/integrantes/jgm847/">Jorge</a></li>
+      
+    
+      
+        <li><a href="/posts/">Blog</a></li>
+      
+    
+      
+        <li><a href="/contacto/">Contacto</a></li>
+      
+    
+  </ul>
+</nav>
+
+<style>
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--menu-text);
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: var(--primary);
+}
+</style>
+      <button id="theme-toggle" aria-label="Cambiar tema">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="theme-icon">
+              
+              <path class="moon" d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1-8.313-12.454z"/>
+              
+              <path class="sun" d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"/>
+          </svg>
+      </button>
+  </nav>
+    <style>
+:root {
+  --header-text-color: #333333;  
+  --header-text-color-dark: #ffffff;  
+  --primary: #000000;  
+  --primary-dark: #ffffff;  
+}
+
+.dark {
+  --header-text-color: var(--header-text-color-dark);
+  --primary: var(--primary-dark);
+}
+    
+    body {
+      background-color: var(--theme) !important;
+      color: #333;
+      line-height: 1.6;
     }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="M***Hunters (Alt + H)">M***Hunters</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="http://localhost:1313/" title="Inicio">
-                    <span>Inicio</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/integrantes/" title="Nuestro Equipo">
-                    <span>Equipo</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/posts/" title="Posts">
-                    <span>Posts</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main">
+    
+    .dark body {
+      background-color: var(--theme-dark) !important;
+      color: #000000;
+    }
+    </style>
+  </header>
+  
+  <style>
+  .header {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .logo a {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  </style><main class="main">
 <div class="not-found">404</div>
     </main>
     

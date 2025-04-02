@@ -1,0 +1,29 @@
+<nav class="menu">
+  <ul>
+    {{ range .Site.Menus.main }}
+      {{ if not (in (slice "Posts" "Categories" "Tags") .Name) }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>
+
+<style>
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--menu-text);
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: var(--primary);
+}
+</style>

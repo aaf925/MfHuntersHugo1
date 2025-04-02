@@ -1,0 +1,24 @@
+<style>
+:root {
+  --header-text-color: #333333; /* Color de texto para modo claro */
+  --header-text-color-dark: #ffffff; /* Color de texto para modo oscuro */
+  --primary: #000000; /* Color primario modo claro */
+  --primary-dark: #ffffff; /* Color primario modo oscuro */
+}
+
+.dark {
+  --header-text-color: var(--header-text-color-dark);
+  --primary: var(--primary-dark);
+}
+    
+    body {
+      background-color: var(--theme) !important;
+      color: #333;
+      line-height: 1.6;
+    }
+    
+    .dark body {
+      background-color: var(--theme-dark) !important;
+      color: #000000;
+    }
+    </style>

@@ -3,7 +3,8 @@ title = "M***Hunters"
 theme = "PaperMod"
 
 [params]
-defaultTheme = "light"
+  defaultTheme = "light"
+  disableAutoMenu = true
 
 [[menu.main]]
 name = "Inicio"
@@ -11,6 +12,26 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Posts"
-url = "/posts/"
+name = "Alejandro"
+url = "/integrantes/aaf925/"
 weight = 2
+
+[[menu.main]]
+name = "Antonio"
+url = "/integrantes/anm020/"
+weight = 3
+
+[[menu.main]]
+name = "Jorge"
+url = "/integrantes/jgm847/"
+weight = 4
+
+[[menu.main]]
+name = "Blog"
+url = "/posts/"
+weight = 5
+
+[[menu.main]]
+name = "Contacto"
+url = "/contacto/"
+weight = 6

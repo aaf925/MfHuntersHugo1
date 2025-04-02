@@ -1,19 +1,221 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>M***Hunters</title>
+    <title>Bienvenido a M***Hunters on M***Hunters</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on M***Hunters</description>
+    <description>Recent content in Bienvenido a M***Hunters on M***Hunters</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alejandro Avilés Fernández</title>
       <link>http://localhost:1313/integrantes/aaf925/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/integrantes/aaf925/</guid>
-      <description></description>
+      <description>&lt;p&gt;Estudiante de Ingeniería Informática en la universidad de Almería. &lt;!-- raw HTML omitted --&gt;
+Usuario de GitHub &lt;a href=&#34;https://github.com/aaf925&#34;&gt;aaf925&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Nací en Sevilla y actualmente resido en Almería. Estoy en tercer curso de Ingeniería Informática (doble rama de Ingeniería del Software y Tecnologías de la Información) en la Universidad de Almería.&lt;/p&gt;
+&lt;h2 id=&#34;mis-habilidades&#34;&gt;Mis Habilidades&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Resolución de Problemas]&lt;/strong&gt;: Capacidad para abordar problemas técnicos complejos y encontrar soluciones efectivas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Trabajo en Equipo]&lt;/strong&gt;: Colaboración eficaz en equipos multidisciplinarios, comunicación clara tanto técnica como no técnica y adaptabilidad para trabajar en equipos ágiles y rápidos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Comunicación Técnica]&lt;/strong&gt;: Capacidad para explicar conceptos técnicos complejos de manera comprensible a audiencias no técnicas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Creatividad e Innovación]&lt;/strong&gt;: Habilidad para pensar fuera de la caja y generar soluciones nuevas e innovadoras.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Liderazgo y Gestión de Proyectos]&lt;/strong&gt;: Coordinación de equipos y gestión de proyectos de software y planificación y ejecución de tareas de manera eficiente para cumplir con los plazos establecidos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;educación&#34;&gt;Educación&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[E.S.O.]&lt;/strong&gt; – I.E.S. La Campiña 2019/2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Bachillerato de Ciencias de la Salud]&lt;/strong&gt; – I.E.S. La Campiña 2021/2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Grado Ingeniería del Software]&lt;/strong&gt; - Universidad de Almería 2022-actualidad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contacto&#34;&gt;Contacto&lt;/h2&gt;
+&lt;p&gt;Si deseas saber más o simplemente conectar, no dudes en &lt;a href=&#34;mailto:aaf@inlumine.ual.es&#34;&gt;enviar un correo electrónico&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Antonio Rafael Nieto Mora</title>
+      <link>http://localhost:1313/integrantes/anm020/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/integrantes/anm020/</guid>
+      <description>&lt;p&gt;Estudiante de Ingeniería Informática en la universidad de Almería. &lt;!-- raw HTML omitted --&gt;
+Usuario de GitHub &lt;a href=&#34;https://github.com/anm0200&#34;&gt;anm0200&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Nací en Lucena, Córdoba y actualmente resido en Almería. Estoy estudiando tercer año de Ingeniería del Software de la Universidad de Almería.&lt;/p&gt;
+&lt;h2 id=&#34;mis-habilidades&#34;&gt;Mis Habilidades&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pensamiento crítico&lt;/strong&gt;: Capacidad para analizar problemas desde diferentes perspectivas y tomar decisiones informadas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comunicación efectiva&lt;/strong&gt;: Explicar conceptos técnicos a personas no técnicas, como clientes o miembros del equipo de marketing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Capacidad de aprender continuamente&lt;/strong&gt;: Mantenerse al día con las últimas tendencias, lenguajes y tecnologías en el campo de la programación.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trabajo en equipo&lt;/strong&gt;: Colaborar con otros desarrolladores, diseñadores, analistas de negocio y otros miembros del equipo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;educación&#34;&gt;Educación&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;E.S.O.&lt;/strong&gt; – I.E.S. Clara Campoamor (2019-2020)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bachillerato&lt;/strong&gt; – I.E.S. Sierra de Aras (2021-2022)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Profesional de música&lt;/strong&gt; – Conservatorio Maestro Chicano Muñoz (2021-2022)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;B1 Inglés&lt;/strong&gt; – Learning Corner (2024)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contacto&#34;&gt;Contacto&lt;/h2&gt;
+&lt;p&gt;Si deseas saber más o simplemente conectar, no dudes en &lt;a href=&#34;mailto:anm020@inlumine.ual.es&#34;&gt;enviar un correo electrónico&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Git Branching Cheatsheet</title>
+      <link>http://localhost:1313/posts/autor/jgm847/cheatsheet-de-git-branching/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/autor/jgm847/cheatsheet-de-git-branching/</guid>
+      <description>&lt;h1 id=&#34;-git-branching-cheatsheet&#34;&gt;🧪 Git Branching Cheatsheet&lt;/h1&gt;
+&lt;p&gt;Una referencia rápida para trabajar con ramas en Git. Ideal para cuando necesitas moverte entre ramas, crear nuevas o fusionarlas rápidamente.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-crear-ramas&#34;&gt;📋 Crear ramas&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Crear una nueva rama (sin cambiar a ella)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch nombre-de-la-rama
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Crear una nueva rama y cambiarse a ella&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout -b nombre-de-la-rama
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Crear una nueva rama a partir de otra existente&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout -b nueva-rama origen/rama-base
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-cambiar-entre-ramas&#34;&gt;🔄 Cambiar entre ramas&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Cambiar de rama&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout nombre-de-la-rama
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Mostrar todas las ramas locales&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Mostrar todas las ramas (locales + remotas)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -a
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-borrar-ramas&#34;&gt;🗑️ Borrar ramas&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Eliminar una rama local (si ya fue fusionada)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -d nombre-de-la-rama        &lt;span style=&#34;color:#75715e&#34;&gt;# Si ya fue fusionada&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -D nombre-de-la-rama        &lt;span style=&#34;color:#75715e&#34;&gt;# Forzar borrado&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Eliminar una rama del repositorio remoto&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin --delete nombre-de-la-rama
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-subir-ramas-al-repositorio-remoto&#34;&gt;🚀 Subir ramas al repositorio remoto&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Publicar una nueva rama al repositorio remoto y configurarla para hacer push&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin nombre-de-la-rama
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-fusionar-ramas-merge&#34;&gt;🔁 Fusionar ramas (merge)&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Integrar cambios de otra rama en la actual&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git merge nombre-de-la-rama
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Fusionar sin crear un commit automático&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git merge --no-commit nombre-de-la-rama
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-rebase&#34;&gt;🧠 Rebase&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Mover commits actuales para que partan desde otra rama (rebase)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git rebase nombre-de-la-rama
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Interactivo (para reorganizar, editar, etc.)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git rebase -i HEAD~3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-comparar-ramas&#34;&gt;🧭 Comparar ramas&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Mostrar los cambios entre dos ramas&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git diff rama1..rama2
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Ver los commits en una rama que no están en otra&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git log rama1..rama2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-limpieza&#34;&gt;🧼 Limpieza&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Limpiar ramas remotas eliminadas del listado local&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote prune origin
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-tips-extra&#34;&gt;🔍 Tips extra&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Cambiar el nombre de una rama local&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -m nuevo-nombre
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Mostrar en qué rama estás actualmente&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch --show-current
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Establecer la rama remota por defecto para hacer push&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push --set-upstream origin nombre-de-la-rama
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;-comandos-generales-de-git&#34;&gt;🧰 Comandos generales de Git&lt;/h1&gt;
+&lt;p&gt;Una recopilación más extensa de comandos útiles en Git, desde lo básico hasta herramientas avanzadas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jorge González Muñoz</title>
+      <link>http://localhost:1313/integrantes/jgm847/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/integrantes/jgm847/</guid>
+      <description>&lt;p&gt;Estudiante de Ingeniería Informática en la universidad de Almería. &lt;!-- raw HTML omitted --&gt;
+Usuario de GitHub &lt;a href=&#34;https://github.com/jgm847&#34;&gt;jgm847&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Soy Jorge, apasionado de la infórmatica. Nací en Adra y actualmente estoy estudiando el grado de Ingeniería informática en la Universidad de Almería. Desde chico siempre me ha gustado la tecnología y tuve muy claro que quería dedicarme a este mundillo.&lt;/p&gt;
+&lt;h2 id=&#34;mis-habilidades&#34;&gt;Mis Habilidades&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Resolución de Problemas]&lt;/strong&gt;: Capacidad para abordar problemas técnicos complejos y encontrar soluciones efectivas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Trabajo en Equipo]&lt;/strong&gt;: Colaboración eficaz en equipos multidisciplinarios, comunicación clara tanto técnica como no técnica y adaptabilidad para trabajar en equipos ágiles y rápidos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Comunicación Técnica]&lt;/strong&gt;: Capacidad para explicar conceptos técnicos complejos de manera comprensible a audiencias no técnicas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Creatividad e Innovación]&lt;/strong&gt;: Habilidad para pensar fuera de la caja y generar soluciones nuevas e innovadoras.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Liderazgo y Gestión de Proyectos]&lt;/strong&gt;: Coordinación de equipos y gestión de proyectos de software y planificación y ejecución de tareas de manera eficiente para cumplir con los plazos establecidos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;educación&#34;&gt;Educación&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[E.S.O.]&lt;/strong&gt; – I.E.S. Gaviota 2019/2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Bachillerato Tecnológico]&lt;/strong&gt; – I.E.S. La Campiña 2021/2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Grado Ingeniería Informática (Menciones: INSO/TI)]&lt;/strong&gt; - Universidad de Almería 2022-actualidad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contacto&#34;&gt;Contacto&lt;/h2&gt;
+&lt;p&gt;Si deseas saber más o simplemente conectar, no dudes en &lt;a href=&#34;mailto:JGM847@inlumine.ual.es&#34;&gt;enviar un correo electrónico&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Instalación de Jekyll</title>
+      <link>http://localhost:1313/posts/autor/anm020/instalaci%C3%B3n-de-jekyll/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/autor/anm020/instalaci%C3%B3n-de-jekyll/</guid>
+      <description>&lt;h1 id=&#34;instalación-y-configuración-básica-de-jekyll&#34;&gt;Instalación y Configuración básica de Jekyll&lt;/h1&gt;
+&lt;h2 id=&#34;requisitos-previos&#34;&gt;Requisitos previos&lt;/h2&gt;
+&lt;p&gt;Antes de instalar Jekyll, asegúrate de tener los siguientes requisitos en tu sistema:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ruby&lt;/strong&gt; (versión 2.5.0 o superior)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RubyGems&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GCC y Make&lt;/strong&gt; (para compilar extensiones nativas)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Puedes verificar la versión de Ruby instalada con el siguiente comando:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ruby -v
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Si no tienes Ruby instalado, puedes hacerlo mediante:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ubuntu/Debian:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt update &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt install ruby-full build-essential zlib1g-dev
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;MacOS (usando Homebrew):&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install ruby
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Windows (usando Chocolatey):&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🧰 Mini Tutorial de GitLab</title>
+      <link>http://localhost:1313/posts/autor/aaf925/tutorial-de-gitlab/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/autor/aaf925/tutorial-de-gitlab/</guid>
+      <description>&lt;p&gt;GitLab es una plataforma completa de DevOps que facilita el control de versiones, integración continua y colaboración en equipo. Esta guía te llevará paso a paso por las funciones esenciales.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-1-crear-un-repositorio&#34;&gt;📂 1. Crear un Repositorio&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Desde la interfaz web:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1. Inicia sesión en &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;GitLab&lt;span style=&#34;color:#f92672&#34;&gt;](&lt;/span&gt;https://gitlab.com/&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;2. Haz clic en &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;New Project&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;3. Elige &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Create Blank Project&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;4. Completa los detalles y haz clic en &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Create project&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻 2. Clonar un Repositorio&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Copia el repositorio a tu máquina local:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://gitlab.com/usuario/repositorio.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd repositorio
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🔄 3. Flujo Básico de Trabajo&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contáctanos</title>
+      <link>http://localhost:1313/contacto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contacto/</guid>
+      <description>&lt;h2 id=&#34;envíanos-un-mensaje&#34;&gt;Envíanos un mensaje&lt;/h2&gt;
+&lt;p&gt;¿Tienes preguntas o quieres colaborar con nosotros? ¡Escríbenos!&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
     </item>
   </channel>
 </rss>
