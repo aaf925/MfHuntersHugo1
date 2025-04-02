@@ -1,0 +1,4 @@
+baseURL = "https://tusitio.com/"
+languageCode = "es-es"
+title = "Mi Sitio Web"
+theme = "ananke"
