@@ -1,0 +1,12 @@
+{
+  "platform": {
+    "hugoVersion": "0.125.7"
+  },
+  "routes": [
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
+  ]
+}
