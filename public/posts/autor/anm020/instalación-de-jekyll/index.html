@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" dir="auto">
-
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Instalación de Jekyll | M***Hunters</title>
-<meta name="keywords" content="">
-<meta name="description" content="Instalación y Configuración básica de Jekyll
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Instalación de Jekyll | M***Hunters</title>
+<meta name=keywords content><meta name=description content="Instalación y Configuración básica de Jekyll
 Requisitos previos
 Antes de instalar Jekyll, asegúrate de tener los siguientes requisitos en tu sistema:
 
@@ -21,287 +13,55 @@ Si no tienes Ruby instalado, puedes hacerlo mediante:
 
 
 Ubuntu/Debian:
-sudo apt update &amp;&amp; sudo apt install ruby-full build-essential zlib1g-dev
+sudo apt update && sudo apt install ruby-full build-essential zlib1g-dev
 
 
 MacOS (usando Homebrew):
 brew install ruby
 
 
-Windows (usando Chocolatey):">
-<meta name="author" content="Antonio">
-<link rel="canonical" href="http://localhost:1313/posts/autor/anm020/instalaci%C3%B3n-de-jekyll/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.cb543fbe62073b1a335fc5dfef13e31ae63cf170a1e05168ad738c891d07f567.css" integrity="sha256-y1Q/vmIHOxozX8Xf7xPjGuY88XCh4FForXOMiR0H9Wc=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/autor/anm020/instalaci%C3%B3n-de-jekyll/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
+Windows (usando Chocolatey):"><meta name=author content="Antonio"><link rel=canonical href=http://localhost:1313/posts/autor/anm020/instalaci%C3%B3n-de-jekyll/><link crossorigin=anonymous href=/assets/css/stylesheet.cb543fbe62073b1a335fc5dfef13e31ae63cf170a1e05168ad738c891d07f567.css integrity="sha256-y1Q/vmIHOxozX8Xf7xPjGuY88XCh4FForXOMiR0H9Wc=" rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/favicon.ico><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/favicon-32x32.png><link rel=apple-touch-icon href=http://localhost:1313/apple-touch-icon.png><link rel=mask-icon href=http://localhost:1313/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=http://localhost:1313/posts/autor/anm020/instalaci%C3%B3n-de-jekyll/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><meta property="og:url" content="http://localhost:1313/posts/autor/anm020/instalaci%C3%B3n-de-jekyll/"><meta property="og:site_name" content="M***Hunters"><meta property="og:title" content="Instalación de Jekyll"><meta property="og:description" content="Instalación y Configuración básica de Jekyll Requisitos previos Antes de instalar Jekyll, asegúrate de tener los siguientes requisitos en tu sistema:
+Ruby (versión 2.5.0 o superior) RubyGems GCC y Make (para compilar extensiones nativas) Puedes verificar la versión de Ruby instalada con el siguiente comando:
+ruby -v Si no tienes Ruby instalado, puedes hacerlo mediante:
+Ubuntu/Debian:
+sudo apt update && sudo apt install ruby-full build-essential zlib1g-dev MacOS (usando Homebrew):
+brew install ruby Windows (usando Chocolatey):"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2025-03-20T00:00:00+00:00"><meta property="article:modified_time" content="2025-03-20T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Instalación de Jekyll"><meta name=twitter:description content="Instalación y Configuración básica de Jekyll
+Requisitos previos
+Antes de instalar Jekyll, asegúrate de tener los siguientes requisitos en tu sistema:
 
-    </style>
-</noscript>
-</head>
+Ruby (versión 2.5.0 o superior)
+RubyGems
+GCC y Make (para compilar extensiones nativas)
 
-<body class="" id="top"><header class="header">
-  <nav class="nav">
-      <div class="logo">
-          <a href="/">M***Hunters</a>
-      </div>
-      <nav class="menu">
-  <ul>
-    
-      
-        <li><a href="/">Inicio</a></li>
-      
-    
-      
-        <li><a href="/integrantes/aaf925/">Alejandro</a></li>
-      
-    
-      
-        <li><a href="/integrantes/anm020/">Antonio</a></li>
-      
-    
-      
-        <li><a href="/integrantes/jgm847/">Jorge</a></li>
-      
-    
-      
-        <li><a href="/posts/">Blog</a></li>
-      
-    
-      
-        <li><a href="/contacto/">Contacto</a></li>
-      
-    
-  </ul>
-</nav>
-
-<style>
-.menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.menu a {
-  text-decoration: none;
-  color: var(--menu-text);
-  font-weight: 500;
-}
-
-.menu a:hover {
-  color: var(--primary);
-}
-</style>
-      <button id="theme-toggle" aria-label="Cambiar tema">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="theme-icon">
-              
-              <path class="moon" d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1-8.313-12.454z"/>
-              
-              <path class="sun" d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"/>
-          </svg>
-      </button>
-  </nav>
-    <style>
-:root {
-  --header-text-color: #333333;  
-  --header-text-color-dark: #ffffff;  
-  --primary: #000000;  
-  --primary-dark: #ffffff;  
-}
-
-.dark {
-  --header-text-color: var(--header-text-color-dark);
-  --primary: var(--primary-dark);
-}
-    
-    body {
-      background-color: var(--theme) !important;
-      color: #333;
-      line-height: 1.6;
-    }
-    
-    .dark body {
-      background-color: var(--theme-dark) !important;
-      color: #000000;
-    }
-    </style>
-  </header>
-  
-  <style>
-  .header {
-    padding: 1rem 0;
-    margin-bottom: 2rem;
-    border-bottom: 1px solid var(--border);
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-  
-  .logo a {
-    font-weight: bold;
-    font-size: 1.2rem;
-    text-decoration: none;
-  }
-  </style><main class="main">
-
-<article class="post-single">
-  <header class="post-header">
-    
-    <h1 class="post-title entry-hint-parent">
-      Instalación de Jekyll
-    </h1>
-    <div class="post-meta"><span title='2025-03-20 00:00:00 +0000 UTC'>March 20, 2025</span>&nbsp;·&nbsp;Antonio
-
-</div>
-  </header> 
-  <div class="post-content"><h1 id="instalación-y-configuración-básica-de-jekyll">Instalación y Configuración básica de Jekyll<a hidden class="anchor" aria-hidden="true" href="#instalación-y-configuración-básica-de-jekyll">#</a></h1>
-<h2 id="requisitos-previos">Requisitos previos<a hidden class="anchor" aria-hidden="true" href="#requisitos-previos">#</a></h2>
-<p>Antes de instalar Jekyll, asegúrate de tener los siguientes requisitos en tu sistema:</p>
-<ul>
-<li><strong>Ruby</strong> (versión 2.5.0 o superior)</li>
-<li><strong>RubyGems</strong></li>
-<li><strong>GCC y Make</strong> (para compilar extensiones nativas)</li>
-</ul>
-<p>Puedes verificar la versión de Ruby instalada con el siguiente comando:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>ruby -v
-</span></span></code></pre></div><p>Si no tienes Ruby instalado, puedes hacerlo mediante:</p>
-<ul>
-<li>
-<p><strong>Ubuntu/Debian:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt install ruby-full build-essential zlib1g-dev
-</span></span></code></pre></div></li>
-<li>
-<p><strong>MacOS (usando Homebrew):</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>brew install ruby
-</span></span></code></pre></div></li>
-<li>
-<p><strong>Windows (usando Chocolatey):</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>choco install ruby -y
-</span></span></code></pre></div><p>Después de la instalación, asegúrate de agregar Ruby al <code>PATH</code> reiniciando la sesión de PowerShell.</p>
-</li>
-</ul>
-<h2 id="instalación-de-jekyll">Instalación de Jekyll<a hidden class="anchor" aria-hidden="true" href="#instalación-de-jekyll">#</a></h2>
-<p>Una vez que tengas Ruby instalado, puedes proceder a instalar Jekyll y Bundler ejecutando:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>gem install jekyll bundler
-</span></span></code></pre></div><p>Verifica que Jekyll se ha instalado correctamente con:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>jekyll -v
-</span></span></code></pre></div><h2 id="creación-de-un-nuevo-sitio">Creación de un nuevo sitio<a hidden class="anchor" aria-hidden="true" href="#creación-de-un-nuevo-sitio">#</a></h2>
-<p>Para crear un nuevo sitio en Jekyll, usa el siguiente comando:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>jekyll new mi-sitio
-</span></span></code></pre></div><p>Este comando generará una estructura de carpetas y archivos esenciales para tu sitio Jekyll.</p>
-<h2 id="configuración-básica">Configuración Básica<a hidden class="anchor" aria-hidden="true" href="#configuración-básica">#</a></h2>
-<p>Dentro del directorio del sitio recién creado, hay un archivo llamado <code>_config.yml</code>. Aquí puedes realizar configuraciones básicas, como cambiar el título del sitio, la descripción y otros parámetros importantes. Un ejemplo de configuración sería:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#e6db74">&#34;Mi Blog en Jekyll&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">author</span>: <span style="color:#e6db74">&#34;Tu Nombre&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">description</span>: <span style="color:#e6db74">&#34;Un blog generado con Jekyll.&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">baseurl</span>: <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;http://tusitio.com&#34;</span>
-</span></span></code></pre></div><h2 id="ejecutar-el-servidor-local">Ejecutar el Servidor Local<a hidden class="anchor" aria-hidden="true" href="#ejecutar-el-servidor-local">#</a></h2>
-<p>Para previsualizar tu sitio localmente, navega al directorio del sitio y ejecuta:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>cd mi-sitio
-</span></span><span style="display:flex;"><span>bundle exec jekyll serve
-</span></span></code></pre></div><p>Esto iniciará un servidor en <code>http://localhost:4000/</code>, donde podrás ver tu sitio en acción.</p>
-<h2 id="conclusión">Conclusión<a hidden class="anchor" aria-hidden="true" href="#conclusión">#</a></h2>
-<p>Jekyll es una excelente opción para generar sitios estáticos de manera rápida y eficiente. Con esta guía, has aprendido cómo instalarlo, configurarlo y ejecutarlo localmente en Windows usando PowerShell. ¡Ahora puedes comenzar a personalizar tu sitio!</p>
+Puedes verificar la versión de Ruby instalada con el siguiente comando:
+ruby -v
+Si no tienes Ruby instalado, puedes hacerlo mediante:
 
 
-  </div>
+Ubuntu/Debian:
+sudo apt update && sudo apt install ruby-full build-essential zlib1g-dev
 
-  <footer class="post-footer">
-    <ul class="post-tags">
-    </ul>
-  </footer>
-</article>
-    </main>
-    
-<footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">M***Hunters</a></span> · 
 
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
+MacOS (usando Homebrew):
+brew install ruby
 
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
 
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
-</html>
+Windows (usando Chocolatey):"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Nuestro Blog","item":"http://localhost:1313/posts/"},{"@type":"ListItem","position":2,"name":"Instalación de Jekyll","item":"http://localhost:1313/posts/autor/anm020/instalaci%C3%B3n-de-jekyll/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Instalación de Jekyll","name":"Instalación de Jekyll","description":"Instalación y Configuración básica de Jekyll Requisitos previos Antes de instalar Jekyll, asegúrate de tener los siguientes requisitos en tu sistema:\nRuby (versión 2.5.0 o superior) RubyGems GCC y Make (para compilar extensiones nativas) Puedes verificar la versión de Ruby instalada con el siguiente comando:\nruby -v Si no tienes Ruby instalado, puedes hacerlo mediante:\nUbuntu/Debian:\nsudo apt update \u0026amp;\u0026amp; sudo apt install ruby-full build-essential zlib1g-dev MacOS (usando Homebrew):\nbrew install ruby Windows (usando Chocolatey):\n","keywords":[],"articleBody":"Instalación y Configuración básica de Jekyll Requisitos previos Antes de instalar Jekyll, asegúrate de tener los siguientes requisitos en tu sistema:\nRuby (versión 2.5.0 o superior) RubyGems GCC y Make (para compilar extensiones nativas) Puedes verificar la versión de Ruby instalada con el siguiente comando:\nruby -v Si no tienes Ruby instalado, puedes hacerlo mediante:\nUbuntu/Debian:\nsudo apt update \u0026\u0026 sudo apt install ruby-full build-essential zlib1g-dev MacOS (usando Homebrew):\nbrew install ruby Windows (usando Chocolatey):\nchoco install ruby -y Después de la instalación, asegúrate de agregar Ruby al PATH reiniciando la sesión de PowerShell.\nInstalación de Jekyll Una vez que tengas Ruby instalado, puedes proceder a instalar Jekyll y Bundler ejecutando:\ngem install jekyll bundler Verifica que Jekyll se ha instalado correctamente con:\njekyll -v Creación de un nuevo sitio Para crear un nuevo sitio en Jekyll, usa el siguiente comando:\njekyll new mi-sitio Este comando generará una estructura de carpetas y archivos esenciales para tu sitio Jekyll.\nConfiguración Básica Dentro del directorio del sitio recién creado, hay un archivo llamado _config.yml. Aquí puedes realizar configuraciones básicas, como cambiar el título del sitio, la descripción y otros parámetros importantes. Un ejemplo de configuración sería:\ntitle: \"Mi Blog en Jekyll\" author: \"Tu Nombre\" description: \"Un blog generado con Jekyll.\" baseurl: \"\" url: \"http://tusitio.com\" Ejecutar el Servidor Local Para previsualizar tu sitio localmente, navega al directorio del sitio y ejecuta:\ncd mi-sitio bundle exec jekyll serve Esto iniciará un servidor en http://localhost:4000/, donde podrás ver tu sitio en acción.\nConclusión Jekyll es una excelente opción para generar sitios estáticos de manera rápida y eficiente. Con esta guía, has aprendido cómo instalarlo, configurarlo y ejecutarlo localmente en Windows usando PowerShell. ¡Ahora puedes comenzar a personalizar tu sitio!\n","wordCount":"284","inLanguage":"en","datePublished":"2025-03-20T00:00:00Z","dateModified":"2025-03-20T00:00:00Z","author":{"@type":"Person","name":"Antonio"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:1313/posts/autor/anm020/instalaci%C3%B3n-de-jekyll/"},"publisher":{"@type":"Organization","name":"M***Hunters","logo":{"@type":"ImageObject","url":"http://localhost:1313/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=nav><div class=logo><a href=/>M***Hunters</a></div><nav class=menu><ul><li><a href=/>Inicio</a></li><li><a href=/integrantes/aaf925/>Alejandro</a></li><li><a href=/integrantes/anm020/>Antonio</a></li><li><a href=/integrantes/jgm847/>Jorge</a></li><li><a href=/posts/>Blog</a></li><li><a href=/contacto/>Contacto</a></li></ul></nav><style>.menu ul{list-style:none;padding:0;margin:0;display:flex;gap:1.5rem}.menu a{text-decoration:none;color:var(--menu-text);font-weight:500}.menu a:hover{color:var(--primary)}</style><button id=theme-toggle aria-label="Cambiar tema"><svg viewBox="0 0 24 24" class="theme-icon"><path class="moon" d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"/><path class="sun" d="M12 18a6 6 0 110-12 6 6 0 010 12zm0-2a4 4 0 100-8 4 4 0 000 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85 1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"/></svg></button></nav><style>:root{--header-text-color:#333333;--header-text-color-dark:#ffffff;--primary:#000000;--primary-dark:#ffffff}.dark{--header-text-color:var(--header-text-color-dark);--primary:var(--primary-dark)}body{background-color:var(--theme)!important;color:#333;line-height:1.6}.dark body{background-color:var(--theme-dark)!important;color:#000}</style></header><style>.header{padding:1rem 0;margin-bottom:2rem;border-bottom:1px solid var(--border)}.nav{display:flex;justify-content:space-between;align-items:center;max-width:1200px;margin:0 auto;padding:0 1rem}.logo a{font-weight:700;font-size:1.2rem;text-decoration:none}</style><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">Instalación de Jekyll</h1><div class=post-meta><span title='2025-03-20 00:00:00 +0000 UTC'>March 20, 2025</span>&nbsp;·&nbsp;Antonio</div></header><div class=post-content><h1 id=instalación-y-configuración-básica-de-jekyll>Instalación y Configuración básica de Jekyll<a hidden class=anchor aria-hidden=true href=#instalación-y-configuración-básica-de-jekyll>#</a></h1><h2 id=requisitos-previos>Requisitos previos<a hidden class=anchor aria-hidden=true href=#requisitos-previos>#</a></h2><p>Antes de instalar Jekyll, asegúrate de tener los siguientes requisitos en tu sistema:</p><ul><li><strong>Ruby</strong> (versión 2.5.0 o superior)</li><li><strong>RubyGems</strong></li><li><strong>GCC y Make</strong> (para compilar extensiones nativas)</li></ul><p>Puedes verificar la versión de Ruby instalada con el siguiente comando:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-powershell data-lang=powershell><span style=display:flex><span>ruby -v
+</span></span></code></pre></div><p>Si no tienes Ruby instalado, puedes hacerlo mediante:</p><ul><li><p><strong>Ubuntu/Debian:</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>sudo apt update <span style=color:#f92672>&amp;&amp;</span> sudo apt install ruby-full build-essential zlib1g-dev
+</span></span></code></pre></div></li><li><p><strong>MacOS (usando Homebrew):</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>brew install ruby
+</span></span></code></pre></div></li><li><p><strong>Windows (usando Chocolatey):</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>choco install ruby -y
+</span></span></code></pre></div><p>Después de la instalación, asegúrate de agregar Ruby al <code>PATH</code> reiniciando la sesión de PowerShell.</p></li></ul><h2 id=instalación-de-jekyll>Instalación de Jekyll<a hidden class=anchor aria-hidden=true href=#instalación-de-jekyll>#</a></h2><p>Una vez que tengas Ruby instalado, puedes proceder a instalar Jekyll y Bundler ejecutando:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-powershell data-lang=powershell><span style=display:flex><span>gem install jekyll bundler
+</span></span></code></pre></div><p>Verifica que Jekyll se ha instalado correctamente con:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-powershell data-lang=powershell><span style=display:flex><span>jekyll -v
+</span></span></code></pre></div><h2 id=creación-de-un-nuevo-sitio>Creación de un nuevo sitio<a hidden class=anchor aria-hidden=true href=#creación-de-un-nuevo-sitio>#</a></h2><p>Para crear un nuevo sitio en Jekyll, usa el siguiente comando:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-powershell data-lang=powershell><span style=display:flex><span>jekyll new mi-sitio
+</span></span></code></pre></div><p>Este comando generará una estructura de carpetas y archivos esenciales para tu sitio Jekyll.</p><h2 id=configuración-básica>Configuración Básica<a hidden class=anchor aria-hidden=true href=#configuración-básica>#</a></h2><p>Dentro del directorio del sitio recién creado, hay un archivo llamado <code>_config.yml</code>. Aquí puedes realizar configuraciones básicas, como cambiar el título del sitio, la descripción y otros parámetros importantes. Un ejemplo de configuración sería:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>title</span>: <span style=color:#e6db74>&#34;Mi Blog en Jekyll&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>author</span>: <span style=color:#e6db74>&#34;Tu Nombre&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>description</span>: <span style=color:#e6db74>&#34;Un blog generado con Jekyll.&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>baseurl</span>: <span style=color:#e6db74>&#34;&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>url</span>: <span style=color:#e6db74>&#34;http://tusitio.com&#34;</span>
+</span></span></code></pre></div><h2 id=ejecutar-el-servidor-local>Ejecutar el Servidor Local<a hidden class=anchor aria-hidden=true href=#ejecutar-el-servidor-local>#</a></h2><p>Para previsualizar tu sitio localmente, navega al directorio del sitio y ejecuta:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-powershell data-lang=powershell><span style=display:flex><span>cd mi-sitio
+</span></span><span style=display:flex><span>bundle exec jekyll serve
+</span></span></code></pre></div><p>Esto iniciará un servidor en <code>http://localhost:4000/</code>, donde podrás ver tu sitio en acción.</p><h2 id=conclusión>Conclusión<a hidden class=anchor aria-hidden=true href=#conclusión>#</a></h2><p>Jekyll es una excelente opción para generar sitios estáticos de manera rápida y eficiente. Con esta guía, has aprendido cómo instalarlo, configurarlo y ejecutarlo localmente en Windows usando PowerShell. ¡Ahora puedes comenzar a personalizar tu sitio!</p></div><footer class=post-footer><ul class=post-tags></ul></footer></article></main><footer class=footer><span>&copy; 2025 <a href=http://localhost:1313/>M***Hunters</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>

@@ -1,300 +1,93 @@
-<!DOCTYPE html>
-<html lang="en" dir="auto">
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>🛠️ Guía Básica de SonarQube | M***Hunters</title>
+<meta name=keywords content><meta name=description content="SonarQube es una plataforma de inspección continua de calidad de código que ayuda a detectar bugs, vulnerabilidades y code smells en 20+ lenguajes de programación.
+🚀 1. Instalación Rápida
+# Descargar versión Community (requiere Java 11+)
+docker pull sonarqube:community
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Mini Tutorial de GitLab | M***Hunters</title>
-<meta name="keywords" content="">
-<meta name="description" content="Aprende a usar GitLab para crear repositorios, colaborar y gestionar tus proyectos.">
-<meta name="author" content="Alejandro">
-<link rel="canonical" href="http://localhost:1313/posts/autor/aaf925/tutorial-de-gitlab-copy/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.cb543fbe62073b1a335fc5dfef13e31ae63cf170a1e05168ad738c891d07f567.css" integrity="sha256-y1Q/vmIHOxozX8Xf7xPjGuY88XCh4FForXOMiR0H9Wc=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/autor/aaf925/tutorial-de-gitlab-copy/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
+# Ejecutar contenedor (puerto 9000 por defecto)
+docker run -d -p 9000:9000 --name sonarqube sonarqube:community
+🔧 2. Configuración Inicial
+Cambiar contraseña de admin en primer login
 
-    </style>
-</noscript>
-</head>
+Crear proyecto manual o vinculando repositorio
 
-<body class="" id="top"><header class="header">
-  <nav class="nav">
-      <div class="logo">
-          <a href="/">M***Hunters</a>
-      </div>
-      <nav class="menu">
-  <ul>
-    
-      
-        <li><a href="/">Inicio</a></li>
-      
-    
-      
-        <li><a href="/integrantes/aaf925/">Alejandro</a></li>
-      
-    
-      
-        <li><a href="/integrantes/anm020/">Antonio</a></li>
-      
-    
-      
-        <li><a href="/integrantes/jgm847/">Jorge</a></li>
-      
-    
-      
-        <li><a href="/posts/">Blog</a></li>
-      
-    
-      
-        <li><a href="/contacto/">Contacto</a></li>
-      
-    
-  </ul>
-</nav>
+Generar token de seguridad para análisis
 
-<style>
-.menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 1.5rem;
-}
+Seleccionar lenguaje y metodología de análisis
 
-.menu a {
-  text-decoration: none;
-  color: var(--menu-text);
-  font-weight: 500;
-}
+📊 3. Análisis de Código
+# Ejemplo para proyecto Java (Maven)
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=mi-proyecto \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=TU_TOKEN
+🔍 4. Métricas Clave
+✔ Bugs: Errores reales en tiempo de ejecución
+✔ Vulnerabilidades: Problemas de seguridad
+✔ Code Smells: Malas prácticas mantenibles
+✔ Cobertura: % de código testeado
+✔ Duplicación: Código repetido"><meta name=author content="Alejandro"><link rel=canonical href=http://localhost:1313/posts/autor/aaf925/tutorial-de-gitlab-copy/><link crossorigin=anonymous href=/assets/css/stylesheet.cb543fbe62073b1a335fc5dfef13e31ae63cf170a1e05168ad738c891d07f567.css integrity="sha256-y1Q/vmIHOxozX8Xf7xPjGuY88XCh4FForXOMiR0H9Wc=" rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/favicon.ico><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/favicon-32x32.png><link rel=apple-touch-icon href=http://localhost:1313/apple-touch-icon.png><link rel=mask-icon href=http://localhost:1313/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=http://localhost:1313/posts/autor/aaf925/tutorial-de-gitlab-copy/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><meta property="og:url" content="http://localhost:1313/posts/autor/aaf925/tutorial-de-gitlab-copy/"><meta property="og:site_name" content="M***Hunters"><meta property="og:title" content="🛠️ Guía Básica de SonarQube"><meta property="og:description" content="SonarQube es una plataforma de inspección continua de calidad de código que ayuda a detectar bugs, vulnerabilidades y code smells en 20+ lenguajes de programación. 🚀 1. Instalación Rápida # Descargar versión Community (requiere Java 11+) docker pull sonarqube:community # Ejecutar contenedor (puerto 9000 por defecto) docker run -d -p 9000:9000 --name sonarqube sonarqube:community 🔧 2. Configuración Inicial Cambiar contraseña de admin en primer login Crear proyecto manual o vinculando repositorio Generar token de seguridad para análisis Seleccionar lenguaje y metodología de análisis 📊 3. Análisis de Código # Ejemplo para proyecto Java (Maven) mvn clean verify sonar:sonar \ -Dsonar.projectKey=mi-proyecto \ -Dsonar.host.url=http://localhost:9000 \ -Dsonar.login=TU_TOKEN 🔍 4. Métricas Clave ✔ Bugs: Errores reales en tiempo de ejecución ✔ Vulnerabilidades: Problemas de seguridad ✔ Code Smells: Malas prácticas mantenibles ✔ Cobertura: % de código testeado ✔ Duplicación: Código repetido"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2025-04-02T00:00:00+00:00"><meta property="article:modified_time" content="2025-04-02T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="🛠️ Guía Básica de SonarQube"><meta name=twitter:description content="SonarQube es una plataforma de inspección continua de calidad de código que ayuda a detectar bugs, vulnerabilidades y code smells en 20+ lenguajes de programación.
+🚀 1. Instalación Rápida
+# Descargar versión Community (requiere Java 11+)
+docker pull sonarqube:community
 
-.menu a:hover {
-  color: var(--primary);
-}
-</style>
-      <button id="theme-toggle" aria-label="Cambiar tema">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="theme-icon">
-              
-              <path class="moon" d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1-8.313-12.454z"/>
-              
-              <path class="sun" d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"/>
-          </svg>
-      </button>
-  </nav>
-    <style>
-:root {
-  --header-text-color: #333333;  
-  --header-text-color-dark: #ffffff;  
-  --primary: #000000;  
-  --primary-dark: #ffffff;  
-}
+# Ejecutar contenedor (puerto 9000 por defecto)
+docker run -d -p 9000:9000 --name sonarqube sonarqube:community
+🔧 2. Configuración Inicial
+Cambiar contraseña de admin en primer login
 
-.dark {
-  --header-text-color: var(--header-text-color-dark);
-  --primary: var(--primary-dark);
-}
-    
-    body {
-      background-color: var(--theme) !important;
-      color: #333;
-      line-height: 1.6;
-    }
-    
-    .dark body {
-      background-color: var(--theme-dark) !important;
-      color: #000000;
-    }
-    </style>
-  </header>
-  
-  <style>
-  .header {
-    padding: 1rem 0;
-    margin-bottom: 2rem;
-    border-bottom: 1px solid var(--border);
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-  
-  .logo a {
-    font-weight: bold;
-    font-size: 1.2rem;
-    text-decoration: none;
-  }
-  </style><main class="main">
+Crear proyecto manual o vinculando repositorio
 
-<article class="post-single">
-  <header class="post-header">
-    
-    <h1 class="post-title entry-hint-parent">
-      Mini Tutorial de GitLab
-    </h1>
-    <div class="post-description">
-      Aprende a usar GitLab para crear repositorios, colaborar y gestionar tus proyectos.
-    </div>
-    <div class="post-meta"><span title='2025-03-22 00:00:00 +0000 UTC'>March 22, 2025</span>&nbsp;·&nbsp;Alejandro
+Generar token de seguridad para análisis
 
-</div>
-  </header> 
-  <div class="post-content"><h1 id="-mini-tutorial-de-gitlab">🚀 Mini Tutorial de GitLab<a hidden class="anchor" aria-hidden="true" href="#-mini-tutorial-de-gitlab">#</a></h1>
-<p>GitLab es una plataforma de DevOps que facilita el control de versiones, integración continua (CI) y colaboración en equipo. A continuación, te guiaré a través de los pasos básicos para empezar a usar GitLab.</p>
-<h2 id="-1-crear-un-repositorio-en-gitlab">📂 1. Crear un Repositorio en GitLab<a hidden class="anchor" aria-hidden="true" href="#-1-crear-un-repositorio-en-gitlab">#</a></h2>
-<ol>
-<li><strong>Inicia sesión</strong> en <a href="https://gitlab.com/">GitLab</a>.</li>
-<li>Haz clic en <strong>&ldquo;New Project&rdquo;</strong>.</li>
-<li>Elige <strong>&ldquo;Create Blank Project&rdquo;</strong>.</li>
-<li>Asigna un <strong>nombre</strong> al repositorio, selecciona la <strong>visibilidad</strong> (público o privado) y haz clic en <strong>&ldquo;Create project&rdquo;</strong>.</li>
-</ol>
-<hr>
-<h2 id="-2-clonar-un-repositorio-en-local">💻 2. Clonar un Repositorio en Local<a hidden class="anchor" aria-hidden="true" href="#-2-clonar-un-repositorio-en-local">#</a></h2>
-<p>Para trabajar con el repositorio en tu máquina, utiliza el siguiente comando:</p>
-<ol>
-<li>
-<p><strong>git bash</strong>
-git clone <a href="https://gitlab.com/usuario/nombre-del-repositorio.git">https://gitlab.com/usuario/nombre-del-repositorio.git</a></p>
-</li>
-<li>
-<p>Luego, navega a la carpeta del repositorio: cd nombre-del-repositorio</p>
-</li>
-</ol>
-<h2 id="-3-hacer-cambios-y-subirlos">📝 3. Hacer Cambios y Subirlos<a hidden class="anchor" aria-hidden="true" href="#-3-hacer-cambios-y-subirlos">#</a></h2>
-<ul>
-<li><strong>Realiza cambios en los archivos</strong> del repositorio.</li>
-<li><strong>Añade los cambios al área de staging</strong> con el siguiente comando:</li>
-</ul>
-<p><strong>git bash</strong>
-git add .</p>
-<ol>
-<li>Confirma los cambios con un mensaje descriptivo:
-<strong>git commit</strong> -m &ldquo;Descripción del cambio&rdquo;</li>
-<li>Sube los cambios al repositorio remoto para actualizarlo:
-git push origin main</li>
-</ol>
-<h2 id="-4-crear-una-rama-y-fusionar">🔄 4. Crear una Rama y Fusionar<a hidden class="anchor" aria-hidden="true" href="#-4-crear-una-rama-y-fusionar">#</a></h2>
-<ol>
-<li>
-<p><strong>Crear una nueva rama con el siguiente comando:</strong>
-git checkout -b nombre-de-la-rama</p>
-</li>
-<li>
-<p><strong>Subir la nueva rama al repositorio remoto:</strong>
-git push origin nombre-de-la-rama</p>
-</li>
-<li>
-<p>Crear un Merge Request (MR) en GitLab:</p>
-</li>
-<li>
-<p>Ve a la pestaña &ldquo;Merge Requests&rdquo; en GitLab.</p>
-</li>
-<li>
-<p>Haz clic en &ldquo;New Merge Request&rdquo;.</p>
-</li>
-<li>
-<p>Selecciona las ramas origen y destino (por ejemplo, main o la rama correspondiente).</p>
-</li>
-<li>
-<p>Haz clic en &ldquo;Create merge request&rdquo; para completar el proceso.</p>
-</li>
-</ol>
+Seleccionar lenguaje y metodología de análisis
 
+📊 3. Análisis de Código
+# Ejemplo para proyecto Java (Maven)
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=mi-proyecto \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=TU_TOKEN
+🔍 4. Métricas Clave
+✔ Bugs: Errores reales en tiempo de ejecución
+✔ Vulnerabilidades: Problemas de seguridad
+✔ Code Smells: Malas prácticas mantenibles
+✔ Cobertura: % de código testeado
+✔ Duplicación: Código repetido"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Nuestro Blog","item":"http://localhost:1313/posts/"},{"@type":"ListItem","position":2,"name":"🛠️ Guía Básica de SonarQube","item":"http://localhost:1313/posts/autor/aaf925/tutorial-de-gitlab-copy/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"🛠️ Guía Básica de SonarQube","name":"🛠️ Guía Básica de SonarQube","description":"SonarQube es una plataforma de inspección continua de calidad de código que ayuda a detectar bugs, vulnerabilidades y code smells en 20+ lenguajes de programación. 🚀 1. Instalación Rápida # Descargar versión Community (requiere Java 11+) docker pull sonarqube:community # Ejecutar contenedor (puerto 9000 por defecto) docker run -d -p 9000:9000 --name sonarqube sonarqube:community 🔧 2. Configuración Inicial Cambiar contraseña de admin en primer login Crear proyecto manual o vinculando repositorio Generar token de seguridad para análisis Seleccionar lenguaje y metodología de análisis 📊 3. Análisis de Código # Ejemplo para proyecto Java (Maven) mvn clean verify sonar:sonar \\ -Dsonar.projectKey=mi-proyecto \\ -Dsonar.host.url=http://localhost:9000 \\ -Dsonar.login=TU_TOKEN 🔍 4. Métricas Clave ✔ Bugs: Errores reales en tiempo de ejecución ✔ Vulnerabilidades: Problemas de seguridad ✔ Code Smells: Malas prácticas mantenibles ✔ Cobertura: % de código testeado ✔ Duplicación: Código repetido\n","keywords":[],"articleBody":"SonarQube es una plataforma de inspección continua de calidad de código que ayuda a detectar bugs, vulnerabilidades y code smells en 20+ lenguajes de programación. 🚀 1. Instalación Rápida # Descargar versión Community (requiere Java 11+) docker pull sonarqube:community # Ejecutar contenedor (puerto 9000 por defecto) docker run -d -p 9000:9000 --name sonarqube sonarqube:community 🔧 2. Configuración Inicial Cambiar contraseña de admin en primer login Crear proyecto manual o vinculando repositorio Generar token de seguridad para análisis Seleccionar lenguaje y metodología de análisis 📊 3. Análisis de Código # Ejemplo para proyecto Java (Maven) mvn clean verify sonar:sonar \\ -Dsonar.projectKey=mi-proyecto \\ -Dsonar.host.url=http://localhost:9000 \\ -Dsonar.login=TU_TOKEN 🔍 4. Métricas Clave ✔ Bugs: Errores reales en tiempo de ejecución ✔ Vulnerabilidades: Problemas de seguridad ✔ Code Smells: Malas prácticas mantenibles ✔ Cobertura: % de código testeado ✔ Duplicación: Código repetido\n🛡️ 5. Reglas Comunes // Ejemplo de detección en Java if (condición) { // Code smell: condiciones redundantes return true; } else { return false; } ⚙️ 6. Integración con CI/CD # Ejemplo para GitHub Actions - name: SonarQube Scan uses: SonarSource/sonarqube-scan-action@master env: SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }} SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }} ","wordCount":"188","inLanguage":"en","datePublished":"2025-04-02T00:00:00Z","dateModified":"2025-04-02T00:00:00Z","author":{"@type":"Person","name":"Alejandro"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:1313/posts/autor/aaf925/tutorial-de-gitlab-copy/"},"publisher":{"@type":"Organization","name":"M***Hunters","logo":{"@type":"ImageObject","url":"http://localhost:1313/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=nav><div class=logo><a href=/>M***Hunters</a></div><nav class=menu><ul><li><a href=/>Inicio</a></li><li><a href=/integrantes/aaf925/>Alejandro</a></li><li><a href=/integrantes/anm020/>Antonio</a></li><li><a href=/integrantes/jgm847/>Jorge</a></li><li><a href=/posts/>Blog</a></li><li><a href=/contacto/>Contacto</a></li></ul></nav><style>.menu ul{list-style:none;padding:0;margin:0;display:flex;gap:1.5rem}.menu a{text-decoration:none;color:var(--menu-text);font-weight:500}.menu a:hover{color:var(--primary)}</style><button id=theme-toggle aria-label="Cambiar tema"><svg viewBox="0 0 24 24" class="theme-icon"><path class="moon" d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"/><path class="sun" d="M12 18a6 6 0 110-12 6 6 0 010 12zm0-2a4 4 0 100-8 4 4 0 000 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85 1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"/></svg></button></nav><style>:root{--header-text-color:#333333;--header-text-color-dark:#ffffff;--primary:#000000;--primary-dark:#ffffff}.dark{--header-text-color:var(--header-text-color-dark);--primary:var(--primary-dark)}body{background-color:var(--theme)!important;color:#333;line-height:1.6}.dark body{background-color:var(--theme-dark)!important;color:#000}</style></header><style>.header{padding:1rem 0;margin-bottom:2rem;border-bottom:1px solid var(--border)}.nav{display:flex;justify-content:space-between;align-items:center;max-width:1200px;margin:0 auto;padding:0 1rem}.logo a{font-weight:700;font-size:1.2rem;text-decoration:none}</style><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">🛠️ Guía Básica de SonarQube</h1><div class=post-meta><span title='2025-04-02 00:00:00 +0000 UTC'>April 2, 2025</span>&nbsp;·&nbsp;Alejandro</div></header><div class=post-content><h2 id=sonarqube-es-una-plataforma-de-inspección-continua-de-calidad-de-código-que-ayuda-a-detectar-bugs-vulnerabilidades-y-code-smells-en-20-lenguajes-de-programación>SonarQube es una plataforma de inspección continua de calidad de código que ayuda a detectar bugs, vulnerabilidades y code smells en 20+ lenguajes de programación.<a hidden class=anchor aria-hidden=true href=#sonarqube-es-una-plataforma-de-inspección-continua-de-calidad-de-código-que-ayuda-a-detectar-bugs-vulnerabilidades-y-code-smells-en-20-lenguajes-de-programación>#</a></h2><h2 id=-1-instalación-rápida>🚀 1. Instalación Rápida<a hidden class=anchor aria-hidden=true href=#-1-instalación-rápida>#</a></h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Descargar versión Community (requiere Java 11+)</span>
+</span></span><span style=display:flex><span>docker pull sonarqube:community
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Ejecutar contenedor (puerto 9000 por defecto)</span>
+</span></span><span style=display:flex><span>docker run -d -p 9000:9000 --name sonarqube sonarqube:community
+</span></span></code></pre></div><h2 id=-2-configuración-inicial>🔧 2. Configuración Inicial<a hidden class=anchor aria-hidden=true href=#-2-configuración-inicial>#</a></h2><pre><code>Cambiar contraseña de admin en primer login
 
-  </div>
+Crear proyecto manual o vinculando repositorio
 
-  <footer class="post-footer">
-    <ul class="post-tags">
-    </ul>
-  </footer>
-</article>
-    </main>
-    
-<footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">M***Hunters</a></span> · 
+Generar token de seguridad para análisis
 
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
-</html>
+Seleccionar lenguaje y metodología de análisis
+</code></pre><h2 id=-3-análisis-de-código>📊 3. Análisis de Código<a hidden class=anchor aria-hidden=true href=#-3-análisis-de-código>#</a></h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Ejemplo para proyecto Java (Maven)</span>
+</span></span><span style=display:flex><span>mvn clean verify sonar:sonar <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  -Dsonar.projectKey<span style=color:#f92672>=</span>mi-proyecto <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  -Dsonar.host.url<span style=color:#f92672>=</span>http://localhost:9000 <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  -Dsonar.login<span style=color:#f92672>=</span>TU_TOKEN
+</span></span></code></pre></div><h2 id=-4-métricas-clave>🔍 4. Métricas Clave<a hidden class=anchor aria-hidden=true href=#-4-métricas-clave>#</a></h2><p>✔ Bugs: Errores reales en tiempo de ejecución
+✔ Vulnerabilidades: Problemas de seguridad
+✔ Code Smells: Malas prácticas mantenibles
+✔ Cobertura: % de código testeado
+✔ Duplicación: Código repetido</p><h2 id=-5-reglas-comunes>🛡️ 5. Reglas Comunes<a hidden class=anchor aria-hidden=true href=#-5-reglas-comunes>#</a></h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>// Ejemplo de detección en Java
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>(</span>condición<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>           // Code smell: condiciones redundantes
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> true;
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span> <span style=color:#66d9ef>else</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> false;
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span></code></pre></div><h2 id=-6-integración-con-cicd>⚙️ 6. Integración con CI/CD<a hidden class=anchor aria-hidden=true href=#-6-integración-con-cicd>#</a></h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Ejemplo para GitHub Actions</span>
+</span></span><span style=display:flex><span>- name: SonarQube Scan
+</span></span><span style=display:flex><span>  uses: SonarSource/sonarqube-scan-action@master
+</span></span><span style=display:flex><span>  env:
+</span></span><span style=display:flex><span>    SONAR_TOKEN: <span style=color:#e6db74>${</span>{ secrets.SONAR_TOKEN <span style=color:#e6db74>}</span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>    SONAR_HOST_URL: <span style=color:#e6db74>${</span>{ secrets.SONAR_HOST_URL <span style=color:#e6db74>}</span><span style=color:#f92672>}</span>
+</span></span></code></pre></div></div><footer class=post-footer><ul class=post-tags></ul></footer></article></main><footer class=footer><span>&copy; 2025 <a href=http://localhost:1313/>M***Hunters</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>
